@@ -343,10 +343,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
-    if (score <= 199) return '您';
+    if (score <= 49) return '五中人，五中魂';
+    if (score <= 99) return '好杀！';
+    if (score <= 149) return '一操场YXD都不够您杀的';
+    if (score <= 199) return '满门抄斩';
     return '人？';
 }
 
